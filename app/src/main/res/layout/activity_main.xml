@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name here"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/my_name"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Here"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/my_email"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Here"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/my_mobile"></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="MY NOTES"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:onClick="notes">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:text="MY TASKS"
+        android:onClick="tasks">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:text="MY TARGETS"
+        android:onClick="targets">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:text="MY PROFILE"
+        android:onClick="profile">
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Target "
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        >
+
+    </TextView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your next target here"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:textColor="@color/colorPrimary"
+        >
+
+    </TextView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/target_name"
+        android:hint="Your task name">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="when do you want it to be completed"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:textColor="@color/colorPrimary"
+        >
+
+    </TextView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/target_date"
+        android:hint="YYYY-MM-DD">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:onClick="save">
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:background="@color/cardview_light_background"
+            android:textColor="@color/colorAccent">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
